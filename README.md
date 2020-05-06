@@ -6,7 +6,7 @@ This repository provides training and testing code and data for CVPR 2020 [paper
 
 "Towards Visually Explaining Variational Autoencoders", Wenqian Liu, Runze Li, Meng Zheng, Srikrishna Karanam, Ziyan Wu, Bir Bhanu, Richard J. Radke, and Octavia Camps
 
-Further information please contact Wenqian Liu at liu.wenqi@husky.neu.edu, Runze Li at rli047@ucr.edu .
+Further information please contact Wenqian Liu at liu.wenqi@northeastern.edu, Runze Li at rli047@ucr.edu .
 
 ## Requirements
 * [PyTorch](https://pytorch.org/) 1.0 
