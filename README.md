@@ -36,6 +36,8 @@ other options are:
 ```
 Here one_class decides the outlier digit, so that expVAE will generate anomaly localization attention maps, in which high response regions denote the difference between the outlier digit and the inlier digit.
 
+Pretrained models for MNIST can be found [here](https://drive.google.com/file/d/1LLJkAEVA7G5ktzo7EfIsyHyHDGTIVxyG/view?usp=sharing)
+
 ## License and Citation
 The use of this software is RESTRICTED to **non-commercial research and educational purposes**.
 
