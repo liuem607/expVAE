@@ -47,7 +47,7 @@ def main():
     parser.add_argument('--model_path', type=str, default='./ckpt/model_best.pth', metavar='DIR',
                         help='pretrained model directory')
     parser.add_argument('--one_class', type=int, default=8, metavar='N',
-                        help='inlier digit for one-class VAE training')
+                        help='outlier digit for one-class VAE training')
 
     args = parser.parse_args()
 

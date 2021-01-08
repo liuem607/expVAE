@@ -54,10 +54,10 @@ class PropBase(object):
             one_hot = one_hot.cuda()
         flag = 2
         if flag == 1:
-            self.score_fc = torch.sum(F.relu(one_hot.cuda() * mu))
+            self.score_fc = torch.sum(F.relu(one_hot * mu))
         else:
-            self.score_fc = torch.sum(one_hot.cuda())
-        self.score_fc.backward(gradient=one_hot, retain_graph=True)
+            self.score_fc = torch.sum(one_hot)
+        self.score_fc.backward(retain_graph=True)
 
     def get_conv_outputs(self, outputs, target_layer):
         for key, value in outputs.items():
